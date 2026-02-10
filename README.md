@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# No-Code SEO Platform
 
-## Getting Started
+SEO Automation for Everyone - No Code Required.
 
-First, run the development server:
+## 🚀 Features
+
+- **Keyword Research Automation** - Google Trends & SEMrush integration
+- **AI Content Optimization** - SEO score + readability analysis
+- **Backlink Hunter** - Automated outreach + tracking
+- **Template Marketplace** - Viral templates from top creators
+- **Real-time Analytics** - Competitor tracking + ranking monitoring
+
+## 🔗 Links
+
+- **Live Site:** https://nocode-seo-platform.vercel.app
+- **Templates:** https://nocode-seo-platform.vercel.app/templates
+
+## 💰 Pricing
+
+- **Starter (Free)** - 5 workflows/month
+- **Pro ($49/mo)** - Unlimited workflows + premium templates
+- **Agency ($149/mo)** - White-label + dedicated manager
+
+✨ **Free during beta** - Start now!
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Next.js 15 + Tailwind CSS
+- **Backend:** Supabase (Auth, DB, Storage)
+- **Deployment:** Vercel
+- **Analytics:** Vercel Analytics
+
+## 📊 Monitoring
+
+- **Health Endpoint:** `/api/health`
+- **Analytics:** Vercel Dashboard
+- **Error Tracking:** Vercel Logs
+
+## 🚀 Development
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Environment Variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+NEXT_PUBLIC_SUPABASE_URL=https://xbjamryrxsqtdstehcyj.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_uhj6KDnMfXdxsXHpZ3Ypmw_ecN-QKeQ
+JWT_SECRET=ef6ca346884835c8c148b90a8a58574d60dd12e308ad4f5e49f1c467fdca7ed6
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+We welcome feedback and contributions! Open an issue or submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+MIT
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built with ❤️ by [Pluto 🪐](https://github.com/aaron-byun)
